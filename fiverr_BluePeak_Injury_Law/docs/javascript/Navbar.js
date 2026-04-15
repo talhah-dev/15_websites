@@ -3,13 +3,13 @@ const navbar = document.getElementById("navbar");
 navbar.innerHTML = `
   <header id="siteHeader" class="fixed inset-x-0 top-0 z-50">
     <div id="navContainer" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 transition-all duration-300">
-      <div id="navBar" class="relative mt-3 flex items-center justify-between rounded-[1.75rem] px-3 py-2.5 transition-all duration-300">
+      <div id="navBar" class="relative mt-3 flex items-center justify-between rounded-[1.9rem] px-3 py-2.5 transition-all duration-300">
         <a href="index.html" class="inline-flex items-center gap-3 shrink-0">
-          <span class="shrink-0 h-11 w-11 rounded-2xl inline-flex items-center justify-center text-white shadow-sm" style="background:#124433;">
-            <i class="fa-solid fa-house-chimney"></i>
+          <span class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl text-white shadow-sm" style="background:#081838;">
+            <i class="fa-solid fa-house-chimney-window"></i>
           </span>
           <div>
-            <p class="text-lg font-extrabold leading-tight text-slate-900">Roofers Jersey City</p>
+            <p class="text-lg font-extrabold leading-tight text-slate-900">Roofers Newark</p>
             <p class="text-xs font-semibold text-slate-500">New Jersey Roofing Company</p>
           </div>
         </a>
@@ -23,14 +23,14 @@ navbar.innerHTML = `
                 Services
                 <i class="fa-solid fa-chevron-down text-[11px] transition duration-200 group-hover:rotate-180"></i>
               </a>
-              <div class="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 rounded-[1.5rem] border border-[#124433]/12 bg-white/95 p-3 opacity-0 shadow-xl shadow-black/10 backdrop-blur transition-all duration-200 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-focus-within:visible group-focus-within:opacity-100">
+              <div class="invisible absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 rounded-[1.5rem] border border-[#081838]/12 bg-white/95 p-3 opacity-0 shadow-xl shadow-black/10 backdrop-blur transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
                 <div class="grid gap-2">
-                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#124433]/6 hover:text-[#124433]" href="services.html">All Services</a>
-                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#124433]/6 hover:text-[#124433]" href="residential-roofing.html">Residential Roofing</a>
-                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#124433]/6 hover:text-[#124433]" href="commercial-roofing.html">Commercial Roofing</a>
-                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#124433]/6 hover:text-[#124433]" href="multi-family-roofing.html">Multi-Family Roofing</a>
-                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#124433]/6 hover:text-[#124433]" href="roof-repair.html">Roof Repair</a>
-                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#124433]/6 hover:text-[#124433]" href="new-roofing.html">New Roofing</a>
+                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#04B2AA]/10 hover:text-[#081838]" href="services.html">All Services</a>
+                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#04B2AA]/10 hover:text-[#081838]" href="residential-roofing.html">Residential Roofing</a>
+                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#04B2AA]/10 hover:text-[#081838]" href="commercial-roofing.html">Commercial Roofing</a>
+                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#04B2AA]/10 hover:text-[#081838]" href="multi-family-roofing.html">Multi-Family Roofing</a>
+                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#04B2AA]/10 hover:text-[#081838]" href="roof-repair.html">Roof Repair</a>
+                  <a class="rounded-xl px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-[#04B2AA]/10 hover:text-[#081838]" href="new-roofing.html">New Roofing</a>
                 </div>
               </div>
             </li>
@@ -40,8 +40,8 @@ navbar.innerHTML = `
         </nav>
 
         <div class="hidden md:flex items-center gap-3 shrink-0">
-          <a href="contact-us.html" id="ctaBtn" class="inline-flex items-center rounded-2xl pr-4 pl-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 active:translate-y-0">
-            Schedule Estimate
+          <a href="contact-us.html" id="ctaBtn" class="inline-flex items-center rounded-2xl px-4 py-3 text-sm font-semibold transition hover:-translate-y-0.5 active:translate-y-0">
+            Request Quote
           </a>
         </div>
 
@@ -52,20 +52,20 @@ navbar.innerHTML = `
     </div>
   </header>
 
-  <div id="menuOverlay" class="fixed inset-0 z-[60] hidden bg-black/40 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+  <div id="menuOverlay" class="fixed inset-0 z-[60] hidden bg-black/45 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
 
   <aside
     id="menuPanel"
-    class="fixed right-0 top-0 z-[70] h-full w-[88%] max-w-sm translate-x-full bg-[#faf7f0] shadow-2xl shadow-black/10 ring-1 ring-black/5 transition-transform duration-300 ease-out overflow-y-auto"
+    class="fixed right-0 top-0 z-[70] h-full w-[88%] max-w-sm translate-x-full bg-[#f4f8fb] shadow-2xl shadow-black/10 ring-1 ring-black/5 transition-transform duration-300 ease-out overflow-y-auto"
     aria-hidden="true"
   >
     <div class="flex items-center justify-between px-5 py-5">
       <a href="index.html" class="inline-flex items-center gap-3 shrink-0">
-        <span class="shrink-0 h-10 w-10 rounded-2xl inline-flex items-center justify-center text-white shadow-sm" style="background:#124433;">
-          <i class="fa-solid fa-house-chimney"></i>
+        <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-white shadow-sm" style="background:#081838;">
+          <i class="fa-solid fa-house-chimney-window"></i>
         </span>
         <div>
-          <p class="text-lg font-extrabold leading-tight text-slate-900">Roofers Jersey City</p>
+          <p class="text-lg font-extrabold leading-tight text-slate-900">Roofers Newark</p>
           <p class="text-xs font-semibold text-slate-500">New Jersey Roofing Company</p>
         </div>
       </a>
@@ -74,7 +74,7 @@ navbar.innerHTML = `
         id="closeBtn"
         type="button"
         aria-label="Close menu"
-        class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/15 transition hover:bg-[#124433]/15 active:scale-[0.98]"
+        class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/15 transition hover:bg-[#081838]/15 active:scale-[0.98]"
       >
         <i class="fa-solid fa-xmark text-lg"></i>
       </button>
@@ -83,22 +83,22 @@ navbar.innerHTML = `
     <div class="px-5 pb-8">
       <nav class="mt-5">
         <ul class="space-y-2">
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="index.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-house"></i></span>Home</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="about.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-circle-info"></i></span>About</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="services.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-layer-group"></i></span>Services</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="residential-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-house"></i></span>Residential Roofing</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="commercial-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-building"></i></span>Commercial Roofing</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="multi-family-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-city"></i></span>Multi-Family Roofing</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="roof-repair.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-screwdriver-wrench"></i></span>Roof Repair</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="new-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-hammer"></i></span>New Roofing</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="faq.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-circle-question"></i></span>FAQ</a></li>
-          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#124433]/10 hover:bg-[#124433]/5 transition" href="contact-us.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/10"><i class="fa-solid fa-envelope"></i></span>Contact Us</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="index.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-house"></i></span>Home</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="about.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-circle-info"></i></span>About</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="services.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-layer-group"></i></span>Services</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="residential-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-house"></i></span>Residential Roofing</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="commercial-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-building"></i></span>Commercial Roofing</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="multi-family-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-city"></i></span>Multi-Family Roofing</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="roof-repair.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-screwdriver-wrench"></i></span>Roof Repair</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="new-roofing.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-hammer"></i></span>New Roofing</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="faq.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-circle-question"></i></span>FAQ</a></li>
+          <li><a class="mLink flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-[#081838]/10 hover:bg-[#04B2AA]/5 transition" href="contact-us.html"><span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/10"><i class="fa-solid fa-envelope"></i></span>Contact Us</a></li>
         </ul>
       </nav>
-      <div class="mt-8 rounded-[1.5rem] bg-[#124433] p-5 text-white">
-        <p class="text-sm font-semibold text-white/70">Start your project</p>
-        <p class="mt-2 text-lg font-extrabold">Book a roofing estimate in Jersey City.</p>
-        <a href="contact-us.html" class="mt-4 inline-flex rounded-xl bg-[#FEB925] px-4 py-3 text-sm font-bold text-[#124433]">Contact Our Team</a>
+      <div class="mt-8 rounded-[1.5rem] bg-[#081838] p-5 text-white">
+        <p class="text-sm font-semibold text-white/70">Newark roofing help</p>
+        <p class="mt-2 text-lg font-extrabold">Book a roof estimate for your property.</p>
+        <a href="contact-us.html" class="mt-4 inline-flex rounded-xl bg-[#04B2AA] px-4 py-3 text-sm font-bold text-[#081838]">Contact Our Team</a>
       </div>
     </div>
   </aside>
@@ -179,26 +179,26 @@ if (overlay) overlay.addEventListener("click", closeMenu);
 
 const setTopStyle = () => {
   if (navContainer) navContainer.className = "mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 transition-all duration-300";
-  if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-[1.75rem] px-3 py-2.5 transition-all duration-300 bg-transparent ring-1 ring-transparent";
+  if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-[1.9rem] px-3 py-2.5 transition-all duration-300 bg-transparent ring-1 ring-transparent";
 
   navLinks.forEach((a) => {
-    a.className = "navLink inline-flex items-center gap-1 text-slate-700 hover:text-[#124433] transition";
+    a.className = "navLink inline-flex items-center gap-1 text-slate-700 hover:text-[#04B2AA] transition";
   });
 
-  if (ctaBtn) ctaBtn.className = "inline-flex items-center rounded-2xl bg-[#124433] pr-4 pl-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 active:translate-y-0 hover:bg-[#0f382b]";
-  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/15 transition hover:bg-[#124433]/15 active:scale-[0.98] md:hidden";
+  if (ctaBtn) ctaBtn.className = "inline-flex items-center rounded-2xl bg-[#081838] px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 active:translate-y-0 hover:bg-[#0c214d]";
+  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/15 transition hover:bg-[#081838]/15 active:scale-[0.98] md:hidden";
 };
 
 const setScrolledStyle = () => {
   if (navContainer) navContainer.className = "mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 transition-all duration-300";
-  if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-[1.75rem] px-3 py-2.5 transition-all duration-300 bg-[#faf7f0]/90 ring-1 ring-[#124433]/10 shadow-lg shadow-black/5 backdrop-blur";
+  if (navBar) navBar.className = "relative mt-3 flex items-center justify-between rounded-[1.9rem] px-3 py-2.5 transition-all duration-300 bg-[#f4f8fb]/90 ring-1 ring-[#081838]/10 shadow-lg shadow-black/5 backdrop-blur";
 
   navLinks.forEach((a) => {
-    a.className = "navLink inline-flex items-center gap-1 text-slate-700 hover:text-[#124433] transition";
+    a.className = "navLink inline-flex items-center gap-1 text-slate-700 hover:text-[#04B2AA] transition";
   });
 
-  if (ctaBtn) ctaBtn.className = "inline-flex items-center rounded-2xl bg-[#124433] pr-4 pl-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 active:translate-y-0 hover:bg-[#0f382b]";
-  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#124433]/10 text-[#124433] ring-1 ring-[#124433]/15 transition hover:bg-[#124433]/15 active:scale-[0.98] md:hidden";
+  if (ctaBtn) ctaBtn.className = "inline-flex items-center rounded-2xl bg-[#081838] px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 active:translate-y-0 hover:bg-[#0c214d]";
+  if (menuBtn) menuBtn.className = "group inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[#081838]/10 text-[#081838] ring-1 ring-[#081838]/15 transition hover:bg-[#081838]/15 active:scale-[0.98] md:hidden";
 };
 
 const applyNavState = () => {
