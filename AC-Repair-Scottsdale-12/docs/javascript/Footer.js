@@ -15,7 +15,7 @@ footer.innerHTML = `
                         Need Fast Cooling Support?
                     </p>
 
-                    <h2 class="mt-4 text-4xl font-extrabold leading-tight">
+                    <h2 class="mt-4 md:text-4xl text-2xl font-extrabold leading-tight">
                         Send your details and let our team help you stay comfortable
                     </h2>
 
