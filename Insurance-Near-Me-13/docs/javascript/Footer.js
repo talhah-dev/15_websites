@@ -62,7 +62,7 @@ footer.innerHTML = `
 
             <div class="mt-10 overflow-hidden rounded-[1.75rem] border border-white/10">
                 <div class="relative">
-                    <img src="./docs/assets/img17.jpg" alt="Insurance Near Me featured coverage section"
+                    <img src="https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Insurance Near Me featured coverage section"
                         class="h-[240px] w-full object-cover sm:h-[300px] lg:h-[360px]">
                     <div class="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,45,98,0.12),rgba(2,45,98,0.28),rgba(2,45,98,0.72))]"></div>
 
